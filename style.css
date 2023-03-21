@@ -15,7 +15,7 @@ body {
 
 /* Define o estilo do cabeçalho */
 header {
-  background-image: url('/img/dogZ.jpg');
+  background-image: url('./img/dogZ.jpg');
   background-size: cover;
   background-position: center;
   height: 800px;
