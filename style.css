@@ -1,0 +1,104 @@
+/* Define uma fonte personalizada para o cabeçalho */
+@font-face {
+  font-family: 'AutismRapFont';
+  src: url('caminho/para/arquivo/AutismRapFont.ttf');
+}
+
+/* Define as cores predominantes do espectro autista */
+
+
+/* Define as cores de fundo e texto da página */
+body {
+  background-color: rgb(24, 26, 43);
+  color: #FFFFFF;
+}
+
+/* Define o estilo do cabeçalho */
+header {
+  background-image: url('/img/dogZ.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 800px;
+}
+
+
+
+
+h1 {
+  max-width: 100%;
+  font-size: 10rem;
+  text-align: center;
+  margin-top: 0;
+  padding-top: 400px;
+  font-family: monospace;
+  color: rgb(255, 255, 255) ;
+}
+
+h2 {
+  max-width: 100%;
+  font-size: 3rem;
+  text-align: center;
+  margin-top: 0;
+  padding-top: 0;
+  font-family: monospace;
+  color: rgb(255, 255, 255) ;
+}
+
+/* Define o estilo dos botões */
+.btn {
+  background-color: var(--azul);
+  border-color: var(--azul);
+  font-family: 'AutismRapFont', sans-serif;
+}
+
+.btn:hover {
+  background-color: green;
+ 
+}
+
+/* Define o estilo da imagem */
+.img-fluid {
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+/* Define o estilo dos parágrafos */
+p {
+  font-family: 'Helvetica', sans-serif;
+  font-size: 1.2rem;
+  line-height: 1.5;
+  color: rgb(255, 255, 255) ;
+}
+
+/* Define o estilo do container principal */
+.container {
+  max-width: 1200px;
+}
+
+/* Define o estilo do rodapé */
+footer {
+ 
+  color: #FFFFFF;
+  text-align: center;
+  padding: 10px;
+}
+
+
+
+
+#my-icons ul li a img {
+  width: 150px;
+  height : auto;
+  padding-right: 30px;
+
+  transition: all 0.3s ease-in-out;
+
+}
+
+#my-icons ul li a img:hover {
+  transform: scale(1.1);
+  filter : brightness(80%);
+  
+
+}
+
